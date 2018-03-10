@@ -1,10 +1,3 @@
-//
-//  AppDelegate.swift
-//  mediaPlayer
-//
-//  Created by YOUGG on 3/10/18.
-//  Copyright © 2018 YOUGG. All rights reserved.
-//
 
 import UIKit
 
