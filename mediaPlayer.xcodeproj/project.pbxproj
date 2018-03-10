@@ -12,6 +12,8 @@
 		EAD5B46020547A350027B279 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD5B45E20547A350027B279 /* Main.storyboard */; };
 		EAD5B46220547A350027B279 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAD5B46120547A350027B279 /* Assets.xcassets */; };
 		EAD5B46520547A350027B279 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAD5B46320547A350027B279 /* LaunchScreen.storyboard */; };
+		EAD5B46F20547E6E0027B279 /* Adele - Hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAD5B46D20547E6E0027B279 /* Adele - Hello.mp3 */; };
+		EAD5B47020547E6E0027B279 /* Adele - Skyfall (Lyric Video).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAD5B46E20547E6E0027B279 /* Adele - Skyfall (Lyric Video).mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		EAD5B46120547A350027B279 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EAD5B46420547A350027B279 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EAD5B46620547A350027B279 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD5B46D20547E6E0027B279 /* Adele - Hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Adele - Hello.mp3"; sourceTree = "<group>"; };
+		EAD5B46E20547E6E0027B279 /* Adele - Skyfall (Lyric Video).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Adele - Skyfall (Lyric Video).mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		EAD5B44E20547A350027B279 = {
 			isa = PBXGroup;
 			children = (
+				EAD5B46C20547E560027B279 /* New Group */,
 				EAD5B45920547A350027B279 /* mediaPlayer */,
 				EAD5B45820547A350027B279 /* Products */,
 			);
@@ -62,6 +67,15 @@
 				EAD5B46620547A350027B279 /* Info.plist */,
 			);
 			path = mediaPlayer;
+			sourceTree = "<group>";
+		};
+		EAD5B46C20547E560027B279 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				EAD5B46E20547E6E0027B279 /* Adele - Skyfall (Lyric Video).mp3 */,
+				EAD5B46D20547E6E0027B279 /* Adele - Hello.mp3 */,
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +111,11 @@
 					EAD5B45620547A350027B279 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,7 +144,9 @@
 			files = (
 				EAD5B46520547A350027B279 /* LaunchScreen.storyboard in Resources */,
 				EAD5B46220547A350027B279 /* Assets.xcassets in Resources */,
+				EAD5B47020547E6E0027B279 /* Adele - Skyfall (Lyric Video).mp3 in Resources */,
 				EAD5B46020547A350027B279 /* Main.storyboard in Resources */,
+				EAD5B46F20547E6E0027B279 /* Adele - Hello.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +298,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NF69TSV658;
 				INFOPLIST_FILE = mediaPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahyab.mediaPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -292,6 +314,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NF69TSV658;
 				INFOPLIST_FILE = mediaPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ahyab.mediaPlayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
