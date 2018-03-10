@@ -17,7 +17,7 @@ this app include :
   - slider for the current time
   - Playing in the background
 
-Two songs are in project for thetesting the app only .
+Two songs are in project for testing the app only .
 
 
 
